@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1007,13 +1007,9 @@
                     cookie     : true,
                     xfbml      : true,
                     version    : 'v11.0'
-            });
-                
-            FB.AppEvents.logPageView();   
-                
-            };
-        
-            (function(d, s, id){
+                });    
+                FB.AppEvents.logPageView();       
+            };(function(d, s, id){
                 var js, fjs = d.getElementsByTagName(s)[0];
                 if (d.getElementById(id)) {return;}
                 js = d.createElement(s); js.id = id;
