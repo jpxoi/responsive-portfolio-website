@@ -1495,7 +1495,7 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-text-muted {
     color: var(--title-color) !important;
 }
 
-.page-title__name.ec-header-h1, .page-title__name.ec-header-h2, .page-title__name.ec-header-h3, .page-title__name.ec-header-h4, .page-title__name.ec-header-h5, .ec-cart-step__title.ec-header-h6 {
+.page-title__name.ec-header-h1, .page-title__name.ec-header-h2, .page-title__name.ec-header-h3, .page-title__name.ec-header-h4, .page-title__name.ec-header-h5, .ec-cart-step__title.ec-header-h6, .ec-cart-step__title.ec-header-h4 {
     color: var(--title-color) !important;
 }
 
@@ -1504,6 +1504,6 @@ html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control {
 }
 
 .ec-cart-step__icon.ec-cart-step__icon--custom {
-    border-color: var(--first-color) !important;
-    color: var(--first-color) !important;
+    border-color: var(--title-color) !important;
+    color: var(--title-color) !important;
 }
