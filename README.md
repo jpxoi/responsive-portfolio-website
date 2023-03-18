@@ -22,6 +22,17 @@ The use of the ghost mascot is intended to add a playful and approachable elemen
 
 Overall, the 404 error page is an important part of the website, as it helps to create a more positive user experience and reinforces the brand image of the website. The use of a custom mascot and CSS animation demonstrates the attention to detail and creativity that has gone into the design of the website.
 
+## What's New
+
+* Complete redesign of the website using a new color palette and new design elements.
+* Created new CSS animations for multiple images and elements.
+* Optimized CSS loading times by using a CSS preprocessor and preventing render blocking.
+* Implemented new JavaScript functionality with ScrollReveal for the navigation menu and scroll effects.
+* Implemented MixItUp for the portfolio section, allowing users to filter projects by category.
+* Implemented a swiper for the Side Projects section, allowing users to swipe through side projects.
+* Added support for Safari tab bar color on Apple devices, with dynamic color switching based on the current dark mode setting.
+* Implemented a custom 404 error page with a ghost mascot and CSS animations.
+
 ## Live Demo
 
 You can check out the live version of this personal portfolio website by visiting [https://jpxoi.com](https://jpxoi.com). The website is hosted on Netlify, which provides a fast and reliable platform for deploying static websites.
