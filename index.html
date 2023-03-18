@@ -12,13 +12,19 @@
         <link rel="manifest" href="assets/img/favicon/site.webmanifest">
 
         <!--=============== CSS ===============-->
-        <link rel='stylesheet' href="assets/css/styles.css" media="print" onload="this.media='all'">
+        <link rel="stylesheet" href="assets/css/styles.css" fetchpriority="low" crossorigin>
 
         <!--=============== BOXICONS ===============-->
-        <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' media="print" onload="this.media='all'">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="preload" as="style" fetchpriority="low" crossorigin>
 
         <!--=============== SWIPER CSS ===============-->
-        <link rel='stylesheet' href="assets/css/swiper-bundle.min.css" media="print" onload="this.media='all'">
+        <link href="assets/css/swiper-bundle.min.css" rel="preload" as="style" fetchpriority="low" crossorigin>
+
+        <!--=============== CSS Load ===============-->
+        <noscript data-css-lazyload>
+            <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" crossorigin fetchpriority="low">
+            <link href="assets/css/swiper-bundle.min.css" rel="stylesheet" crossorigin fetchpriority="low">
+        </noscript>
 
         <!--==================== SEO ====================-->
         <!-- HTML Meta Tags -->
