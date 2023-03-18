@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,13 +11,13 @@
         <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
         <link rel="manifest" href="assets/img/favicon/site.webmanifest">
 
-        <!--==================== UNICONS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        
-        <!--==================== SWIPER CSS ====================-->
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== SWIPER CSS ===============-->
         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        
-        <!--==================== CSS ====================-->
+
+        <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <!--==================== SEO ====================-->
@@ -33,7 +33,7 @@
         <meta property="og:type" content="website">
         <meta property="og:title" content="Jean Paul Fernandez — Frontend Developer">
         <meta property="og:description" content="High level experience in web design and development knowledge, producing quality work.">
-        <meta property="og:image" content="https://jpxoi.com/assets/img/facebook-card.webp">
+        <meta property="og:image" content="https://jpxoi.com/assets/img/social-card.webp">
         <meta property="og:image:alt" content="Preview of Jean Paul Fernandez's website">
         <meta property="fb:app_id"content="4247685185353137">
         <meta name="facebook-domain-verification" content="i9ntff10jcz1nlu4myciodpcr6trdv" />
@@ -44,16 +44,16 @@
         <meta property="twitter:url" content="https://jpxoi.com">
         <meta name="twitter:title" content="Jean Paul Fernandez — Frontend Developer">
         <meta name="twitter:description" content="High level experience in web design and development knowledge, producing quality work.">
-        <meta name="twitter:image" content="https://jpxoi.com/assets/img/twitter-card.webp">
+        <meta name="twitter:image" content="https://jpxoi.com/assets/img/social-card.webp">
         <meta name="twitter:image:alt" content="Preview of Jean Paul Fernandez's website">
         <meta name="twitter:site" content="@jpxoi">
         <meta name="twitter:creator" content="@jpxoi">
     </head>
     <body>
-        <!--==================== HEADER ====================-->
+        <!--=============== HEADER ===============-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">
+                <a href="https://jpxoi.com" class="nav__logo">
                     <svg xmlns="http://www.w3.org/2000/svg" class="img-fluid" alt="Jean Paul Fernandez logo" viewBox="0 0 2000 250">
                         <g id="Logo_Black" data-name="Logo Black">
                             <g>
@@ -79,924 +79,805 @@
                     </svg>
                 </a>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="bx bx-home-alt"></i>
+                            </a>
+                        </li>
+
                         <li class="nav__item">
                             <a href="#about" class="nav__link">
-                                <i class="uil uil-user nav__icon"></i> About
+                                <i class="bx bx-user"></i>
                             </a>
                         </li>
+
                         <li class="nav__item">
-                            <a href="#services" class="nav__link">
-                                <i class="uil uil-briefcase-alt nav__icon"></i> Services
+                            <a href="#skills" class="nav__link">
+                                <i class="bx bx-book"></i>
                             </a>
                         </li>
+
                         <li class="nav__item">
-                            <a href="#portfolio" class="nav__link">
-                                <i class="uil uil-scenery nav__icon"></i> Portfolio
+                            <a href="#work" class="nav__link">
+                                <i class="bx bx-briefcase-alt-2"></i>
                             </a>
                         </li>
-                        <li class="nav__item">
-                            <a href="https://shop.jpxoi.com" class="nav__link">
-                                <i class="uil uil-shopping-cart nav__icon"></i> Store
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="https://jpxoi.medium.com" target="_blank" class="nav__link">
-                                <i class="uil uil-document-layout-left nav__icon"></i> Blog
-                            </a>
-                        </li>
+
                         <li class="nav__item">
                             <a href="#contact" class="nav__link">
-                                <i class="uil uil-message nav__icon"></i> Contact
+                                <i class="bx bx-message-square-detail"></i>
                             </a>
                         </li>
                     </ul>
-                    <i class="uil uil-times nav__close" id="nav-close"></i>
                 </div>
 
-                <div class="nav__btns">
-                    <!-- Theme Change Button -->
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
-
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
-                    </div>
-                </div>
+                <!-- Theme Change Button -->
+                <i class="bx bx-moon change-theme" id="theme-button"></i>
             </nav>
         </header>
 
-        <!--==================== MAIN ====================-->
+        <!--=============== MAIN ===============-->
         <main class="main">
-            <!--==================== HOME ====================-->
+            <!--=============== HOME ===============-->
             <section class="home section" id="home">
                 <div class="home__container container grid">
-                    <div class="home__content grid">
-                        <div class="home__social">
-                            <a href="https://instagram.com/jpxoi" target="_blank" class="home__social-icon">
-                                <i class="uil uil-instagram"></i>
-                            </a>
-                                                        
-                            <a href="https://github.com/jpxoi" target="_blank" class="home__social-icon">
-                                <i class="uil uil-github-alt"></i>
-                            </a>
-                                                                
-                            <a href="https://linkedin.com/in/jpxoi" target="_blank" class="home__social-icon">
-                                <i class="uil uil-linkedin-alt"></i>
-                            </a>
-                        </div>
+                    <div class="home__data">
+                        <span class="home__greeting">Hello, I'm</span>
+                        <h1 class="home__name">Jean Paul Fernandez</h1>
+                        <h3 id="dynamic-header" class="home__education">Frontend Developer</h3>
 
-                        <div class="home__img" alt="Blob Background">
-                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <mask id="mask0" mask-type="alpha">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                </mask>
-                                <g mask="url(#mask0)">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-
-                                    <image class="home__blob-img" alt="Jean Paul Fernandez" x="12" y="18" href="assets/img/perfil.webp"/>
-                                </g>
-                            </svg>
-                        </div>
-
-                        <div class="div home__data">
-                            <h1 class="home__title">Jean Paul Fernandez</h1>
-                            <h3 class="home__subtitle">Frontend Developer</h3>
-                            <p class="home__description">High level experience in web design and development knowledge, producing quality work.</p>
-                            <a href="#contact" class="button button--flex">
-                                Contact Me <i class="uil uil-message button__icon"></i>
+                        <div class="home__buttons">
+                            <a download="" href="assets/pdf/resume.pdf" target="_blank" class="button button--ghost">
+                                Download Resume
                             </a>
+
+                            <a href="#about" class="button">About Me</a>
                         </div>
                     </div>
 
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scroll-name">Scroll Down</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    <div class="home__handle">
+                        <img src="assets/img/profile.webp" alt="" class="home__img">
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://linkedin.com/in/jpxoi" target="_blank" class="home__social-link">
+                            <i class="bx bxl-linkedin-square"></i>
+                        </a>
+
+                        <a href="https://github.com/jpxoi" target="_blank" class="home__social-link">
+                            <i class="bx bxl-github"></i>
+                        </a>
+
+                        <a href="https://instagram.com/jpxoi" target="_blank" class="home__social-link">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </div>
+
+                    <a href="#about" class="home__scroll">
+                        <i class="bx bx-mouse home__scroll-icon"></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                    </a>
+                </div>
+            </section>
+            
+            <!--=============== ABOUT ===============-->
+            <section class="about section" id="about">
+                <span class="section__subtitle">My Intro</span>
+                <h2 class="section__title">About Me</h2>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/about.webp" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <div class="about__info">
+                            <div class="about__box">
+                                <i class="bx bx-award about__icon"></i>
+                                <h3 class="about__title">Experience</h3>
+                                <span class="about__subtitle">4 Years Working</span>
+                            </div>
+
+                            <div class="about__box">
+                                <i class="bx bx-briefcase-alt about__icon"></i>
+                                <h3 class="about__title">Completed</h3>
+                                <span class="about__subtitle">30+ Projects</span>
+                            </div>
+
+                            <div class="about__box">
+                                <i class='bx bxs-business about__icon'></i>
+                                <h3 class="about__title">Worked</h3>
+                                <span class="about__subtitle">3 Companies</span>
+                            </div>
+                        </div>
+
+                        <p class="about__description">
+                            Frontend developer, UI/UX designer, software engineer, and content creator with extensive knowledge and years of experience in all four areas, delivering quality work.
+                        </p>
+
+                        <a href="#contact" class="button">Contact Me</a>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== SKILLS ===============-->
+            <section class="skills section" id="skills">
+                <span class="section__subtitle">My Technical Level</span>
+                <h2 class="section__title">Skills</h2>
+
+                <div class="skills__container container grid">
+                    <div class="skills__content">
+                        <h3 class="skills__title">Frontend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Backend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">NodeJS</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Go</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">MySQL</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Firebase</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Programming Languages</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">C/C++</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Java</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Matlab</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Swift</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Kotlin</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Tools & Technologies</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Figma</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Git</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Netlify</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Vercel</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Azure</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="bx bxs-badge-check"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">AWS</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!--=============== SERVICES ===============-->
+            <section class="services section">
+                <span class="section__subtitle">My Services</span>
+                <h2 class="section__title">What I Offer</h2>
+
+                <div class="services__container container grid">
+                    <div class="services__card">
+                        <h3 class="services__title">UI/UX <br> Design</h3>
+                        
+                        <span class="services__button">
+                            See More <i class="bx bx-right-arrow-alt services__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class="bx bx-x services__modal-close"></i>
+
+                                <h3 class="services__modal-title">UI/UX Design</h3>
+                                <p class="services__modal-description">
+                                    Design scalable and responsive apps, websites and web platforms that are fast, reliable, and interactive.
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            Prototyping & Wireframing
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            Mobile and Web UI/UX Design
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            Human-centered design
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            Accessibility compliance
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            Priority to responsive design
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__card">
+                        <h3 class="services__title">Brand <br> Design</h3>
+                        
+                        <span class="services__button">
+                            See More <i class="bx bx-right-arrow-alt services__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class="bx bx-x services__modal-close"></i>
+
+                                <h3 class="services__modal-title">Brand Design</h3>
+                                <p class="services__modal-description">
+                                    Develop a coherent brand identity for your company alongside an effective and client focused messaging.
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            Coherent brand identity
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            Effective brand strategy for marketing
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            Brand messsaging that attracts the right clients
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            Includes logo design (3 variations) in PNG, JPG and SVG
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            1 month support after the project delivery
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__card">
+                        <h3 class="services__title">Frontend <br> Development</h3>
+                        
+                        <span class="services__button">
+                            See More <i class="bx bx-right-arrow-alt services__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class="bx bx-x services__modal-close"></i>
+
+                                <h3 class="services__modal-title">Frontend Development</h3>
+                                <p class="services__modal-description">
+                                    Build websites based on your vision, business needs, and problems you want to solve.
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            Front-end Architecture & Design
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            Single Page Applications
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            Progressive Web Apps (React)                   
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            HTML & CSS Responsive Web Design
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class="bx bx-check services__modal-icon"></i>
+                                        <p class="services__modal-info">
+                                            Maintenance and Support
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== WORK ===============-->
+            <section class="work section" id="work">
+                <div class="span section__subtitle">My Work</div>
+                <h2 class="section__title">Portfolio</h2>
+
+                <div class="work__filters">
+                    <span class="work__item active-work" data-filter="all">All</span>
+                    <span class="work__item" data-filter=".web">Web</span>
+                    <span class="work__item" data-filter=".ai">AI</span>
+                    <span class="work__item" data-filter=".design">Design</span>
+                </div>
+
+                <div class="work__container container grid">
+                    <div class="work__card mix web">
+                        <img src="assets/img/portfolio/portf1.webp" alt="" class="work__img">
+
+                        <h3 class="work__title">PAIDEIA Login Page</h3>
+
+                        <a href="https://paideiademo.jpxoi.com" target="_blank" class="work__button">
+                            Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix ai">
+                        <img src="assets/img/portfolio/portf2.webp" alt="" class="work__img">
+
+                        <h3 class="work__title">Neural Network</h3>
+
+                        <a href="https://github.com/jpxoi/neuralnetwork101" target="_blank" class="work__button">
+                            Source Code <i class="bx bx-right-arrow-alt work__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix web">
+                        <img src="assets/img/portfolio/portf3.webp" alt="" class="work__img">
+
+                        <h3 class="work__title">Mokepon</h3>
+
+                        <a href="https://mokepon.jpxoi.com" target="_blank" class="work__button">
+                            Play <i class="bx bx-right-arrow-alt work__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix web">
+                        <img src="assets/img/portfolio/portf4.webp" alt="" class="work__img">
+
+                        <h3 class="work__title">Battery</h3>
+
+                        <a href="https://battery.jpxoi.com" target="_blank" class="work__button">
+                            Explore <i class="bx bx-right-arrow-alt work__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix web">
+                        <img src="assets/img/portfolio/portf5.webp" alt="" class="work__img">
+
+                        <h3 class="work__title">Calculator</h3>
+
+                        <a href="https://calc.jpxoi.com" target="_blank" class="work__button">
+                            Explore <i class="bx bx-right-arrow-alt work__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix design">
+                        <img src="assets/img/portfolio/portf6.webp" alt="" class="work__img">
+
+                        <h3 class="work__title">MAKE Brand Design</h3>
+
+                        <a href="https://www.figma.com/file/Q6FfqxOLheqxUVkEbQ6bBC/MAKE-Brand?node-id=29%3A14" target="_blank" class="work__button">
+                            Brand Identity <i class="bx bx-right-arrow-alt work__icon"></i>
                         </a>
                     </div>
                 </div>
             </section>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                <h2 class="section__title">About Me</h2>
-                <span class="section__subtitle">My Introduction</span>
-
-                <div class="about__container container grid">
-                    <img src="assets/img/about.webp" alt="Jean Paul Fernandez" class="about__img">
-
-                    <div class="about__data">
-                        <p class="about__description">
-                            Content creator, web developer, and video editor, with extensive knowledge and years of experience in all three areas, delivering quality work.<br>
-                            <a href="bio.html">
-                                <span class="button button--flex button--small button--link morebio__button">
-                                    Read Full Bio
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </span>
-                            </a>
-                        </p>
-
-                        <div class="about__info">
-                            <div>
-                                <span class="about__info-title">04+</span>
-                                <span class="about__info-name">Years <br> experience</span>
-                            </div>
-
-                            <div>
-                                <span class="about__info-title">30+</span>
-                                <span class="about__info-name">Completed <br> project</span>
-                            </div>
-
-                            <div>
-                                <span class="about__info-title">03+</span>
-                                <span class="about__info-name">Companies <br> worked</span>
-                            </div>
-                        </div>
-
-                        <div class="about__buttons">
-                            <a download="" href="assets/pdf/Jean Paul Fernandez Resume.pdf" class="button button-flex">
-                                Download Resume<i class="uil uil-download-alt button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== SKILLS ====================-->
-            <section class="skills section">
-                <h2 class="section__title">Skills</h2>
-                <span class="section__subtitle">My Technical Level</span>
-
-                <div class="skills__container container grid">
-                    <div>
-                        <!--==================== SKILLS 1 ====================-->
-                        <div class="skills__content skills__open">
-                            <div class="skills__header">
-                                <i class="uil uil-brackets-curly skills__icon"></i>
-
-                                <div>
-                                    <h1 class="skills__title">Frontend developer</h1>
-                                    <span class="skills__subtitle">More than 1 year</span>
-                                </div>
-
-                                <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">HTML</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">CSS</h3>
-                                        <span class="skills__number">60%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__css"></span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">JavaScript</h3>
-                                        <span class="skills__number">45%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__js"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--==================== SKILLS 2 ====================-->
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-server-network skills__icon"></i>
-
-                                <div>
-                                    <h1 class="skills__title">Backend developer</h1>
-                                    <span class="skills__subtitle">More than 4 months</span>
-                                </div>
-
-                                <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Python</h3>
-                                        <span class="skills__number">40%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__python"></span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Node.js</h3>
-                                        <span class="skills__number">20%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__node"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <!--==================== SKILLS 3 ====================-->
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-video skills__icon"></i>
-
-                                <div>
-                                    <h1 class="skills__title">Video editor</h1>
-                                    <span class="skills__subtitle">More than 3 years</span>
-                                </div>
-
-                                <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Adobe Premiere Pro</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__premierepro"></span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">DaVinci Resolve</h3>
-                                        <span class="skills__number">80%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__resolve"></span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Final Cut Pro</h3>
-                                        <span class="skills__number">75%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__fcpx"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--==================== SKILLS 4 ====================-->
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-swatchbook skills__icon"></i>
-
-                                <div>
-                                    <h1 class="skills__title">Designer</h1>
-                                    <span class="skills__subtitle">More than 2 years</span>
-                                </div>
-
-                                <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Figma</h3>
-                                        <span class="skills__number">60%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__figma"></span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Adobe XD</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__adobexd"></span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Adobe Photoshop</h3>
-                                        <span class="skills__number">85%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__photoshop"></span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Adobe Illustrator</h3>
-                                        <span class="skills__number">80%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__photoshop"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
-                <h2 class="section__title">Qualification</h2>
-                <span class="section__subtitle">My Personal Journey</span>
-
-                <div class="qualification__container container">
-                    <div class="qualification__tabs">
-                        <div class="qualification__button button--flex qualification__active" data-target="#education">
-                            <i class="uil uil-graduation-cap qualification__icon"></i>
-                            Education
-                        </div>
-
-                        <div class="qualification__button button--flex" data-target="#work">
-                            <i class="uil uil-briefcase-alt qualification__icon"></i>
-                            Work
-                        </div>
-                    </div>
-
-                    <div class="qualification__sections">
-                        <!--==================== QUALIFICATION CONTENT 1 ====================-->
-                        <div class="qualification__content qualification__active" data-content id="education">
-                            <!--==================== QUALIFICATION 1 ====================-->
-                            <div class="qualification__data">
-                                <div>
-                                    <h3 class="qualification__title">International Foundation in Science and Engineering</h3>
-                                    <span class="qualification__subtitle">United Kingdom - INTO Manchester</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        September 2021 - June 2022
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-                            </div>
-
-                            <!--==================== QUALIFICATION 2 ====================-->
-                            <div class="qualification__data">
-                                <div></div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <!-- <span class="qualification__line"></span> -->
-                                </div>
-
-                                <div>
-                                    <h3 class="qualification__title">Bachelor of Science in Computer Science</h3>
-                                    <span class="qualification__subtitle">United Kingdom - University of Manchester</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        September 2022 - Present
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
-                        <div class="qualification__content" data-content id="work">
-                            
-                            <!--==================== QUALIFICATION 1 ====================-->
-                            <div class="qualification__data">
-                                <div>
-                                    <h3 class="qualification__title">Chief Technology Officer</h3>
-                                    <span class="qualification__subtitle">Movimiento Adolescente por el Kambio Estudiantil</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        March 2019 - August 2022
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-                            </div>
-
-                            <!--==================== QUALIFICATION 2 ====================-->
-                            <div class="qualification__data">
-                                <div></div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-
-                                <div>
-                                    <h3 class="qualification__title">Founder and CEO</h3>
-                                    <span class="qualification__subtitle">Essential Creative Studios</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        March 2019 - Present
-                                    </div>
-                                </div>
-                            </div>
-                            <!--==================== QUALIFICATION 3 ====================-->
-                            <div class="qualification__data">
-                                <div>
-                                    <h3 class="qualification__title">Frontend Developer</h3>
-                                    <span class="qualification__subtitle">Illari Accesorios</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        October 2021 - December 2021
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                </div> 
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                <h2 class="section__title">Services</h2>
-                <span class="section__subtitle">What I Offer</span>
-
-                <div class="services__container container grid">
-                    <!--==================== SERVICE 1 ====================-->
-                    <div class="services__content">
-                        <div>
-                            <i class="uil uil-web-grid services__icon"></i>
-                            <h3 class="services__title">UI/UX <br> Designer</h3>
-                        </div>
-
-                        <span class="button button--flex button--small button--link services__button">
-                            View More
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">UI/UX Designer</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Responsive website design.</p>
-                                    </li>
-
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>User interface design.</p>
-                                    </li>
-
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>User experience design.</p>
-                                    </li>
-
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Turn your website idea into a prototype.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--==================== SERVICE 2 ====================-->
-                    <div class="services__content">
-                        <div>
-                            <i class="uil uil-arrow services__icon"></i>
-                            <h3 class="services__title">Frontend <br> Developer</h3>
-                        </div>
-
-                        <span class="button button--flex button--small button--link services__button">
-                            View More
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Frontend Developer</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Turn your prototype into a real website</p>
-                                    </li>
-
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Web page development.</p>
-                                    </li>
-
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Full coding and manteinance</p>
-                                    </li>
-
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Free hosting for one year.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--==================== SERVICE 3 ====================-->
-                    <div class="services__content">
-                        <div>
-                            <i class="uil uil-pen services__icon"></i>
-                            <h3 class="services__title">Branding <br> Designer</h3>
-                        </div>
-
-                        <span class="button button--flex button--small button--link services__button">
-                            View More
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Branding Designer</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Logo and brand identity design.</p>
-                                    </li>
-
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Includes a typeface and a typography.</p>
-                                    </li>
-
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>I create brand elements for your business.</p>
-                                    </li>
-
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>I position your company brand.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--==================== SERVICE 4 ====================-->
-                    <div class="services__content">
-                        <div>
-                            <i class="uil uil-video services__icon"></i>
-                            <h3 class="services__title">Video <br> Editor</h3>
-                        </div>
-
-                        <span class="button button--flex button--small button--link services__button">
-                            View More
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Video Editor</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Professional video editing </p>
-                                    </li>
-
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Up to 4k resolution.</p>
-                                    </li>
-
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Perfect for social media or big events.</p>
-                                    </li>
-
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Latest video production technology.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                <h2 class="section__title">Portfolio</h2>
-                <span class="section__subtitle">Most Recent Work</span>
-
-                <div class="portfolio__container container swiper-container">
+            <!--=============== PERSONAL PROJECTS ===============-->
+            <section class="projects section">
+                <span class="section__subtitle">My Side Projects</span>
+                <h2 class="section__title">Personal Projects</h2>
+
+                <div class="projects__container container swiper">
                     <div class="swiper-wrapper">
-                        <!--==================== PORTFOLIO 1 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio1.webp" alt="Paideia Login Demo by Jean Paul Fernandez" class="portfolio__img">
+                        <div class="projects__card swiper-slide">
+                            <img src="assets/img/projects/proj1.webp" alt="" class="projects__img">
 
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Paideia Login Page</h3>
-                                <p class="portfolio__description">Login page adaptable to all devices, with UI components and animated interactions.</p>
-                                <a rel="nofollow" href="https://paideiademo.jpxoi.com" target="_blank" class="button button--flex button--small portfolio__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
+                            <h3 class="projects__name">Year In Review</h3>
+                            <p class="projects__description">
+                                Year In Review is a video series featuring the best of the year in a 20-minute film. Explore the full playlist with the most remarkable videos of each year.
+                            </p>
+                            <br>
+                            <a href="https://youtube.com/playlist?list=PLb_8wW-vXtR4OP169FqJC3dVa2MK-oGeb" target="_blank" class="work__button">
+                                Explore Playlist <i class="bx bx-right-arrow-alt work__icon"></i>
+                            </a>
                         </div>
 
-                        <!--==================== PORTFOLIO 2 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio2.webp" alt="MAKE Brand Design by Jean Paul Fernandez" class="portfolio__img">
+                        <div class="projects__card swiper-slide">
+                            <img src="assets/img/projects/proj2.webp" alt="" class="projects__img">
 
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">MAKE Brand Design</h3>
-                                <p class="portfolio__description">Brand design for an non-profit organization. Includes brand identity elements.</p>
-                                <a rel="nofollow" href="https://www.figma.com/file/Q6FfqxOLheqxUVkEbQ6bBC/MAKE-Brand?node-id=29%3A14" target="_blank" class="button button--flex button--small portfolio__button">
-                                    See More
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
+                            <h3 class="projects__name">CS50</h3>
+                            <p class="projects__description">
+                                A repository with all the code that was written during the Harvard CS50x 2023 course. It covers various topics related to programming.
+                            </p>
+                            <br>
+                            <a href="https://github.com/jpxoi/cs50" target="_blank" class="work__button">
+                                Explore <i class="bx bx-right-arrow-alt work__icon"></i>
+                            </a>
                         </div>
 
-                        <!--==================== PORTFOLIO 3 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio3.webp" alt="" class="portfolio__img">
+                        <div class="projects__card swiper-slide">
+                            <img src="assets/img/projects/proj3.webp" alt="" class="projects__img">
 
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Manchester iPhone 12 Pro Video</h3>
-                                <p class="portfolio__description">This project, fully made on DaVinci Resolve 17, features 4K HDR iPhone 12 Pro footage.</p>
-                                <a href="https://www.youtube.com/watch?v=X2NNSlcrEQU" target="_blank" class="button button--flex button--small portfolio__button">
-                                    Watch Video
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
+                            <h3 class="projects__name">Manchester Cinematic</h3>
+                            <p class="projects__description">
+                                Immerse yourself in the wonderful city of Manchester, in 4K HDR, with its many historic landmarks, museums, art galleries and football stadiums!
+                            </p>
+                            <br>
+                            <a href="https://youtu.be/X2NNSlcrEQU" target="_blank" class="work__button">
+                                Watch Video <i class="bx bx-right-arrow-alt work__icon"></i>
+                            </a>
+                        </div>
+
+                        <div class="projects__card swiper-slide">
+                            <img src="assets/img/projects/proj4.webp" alt="" class="projects__img">
+
+                            <h3 class="projects__name">Deepfakes</h3>
+                            <p class="projects__description">
+                                Deepfakes are everywhere, and it is difficult for many people to identify them. The technology of deepfakes can represent a big danger for trust in our society.
+                            </p>
+                            <br>
+                            <a href="https://deepfakes.jpxoi.com/" target="_blank" class="work__button">
+                                Learn More <i class="bx bx-right-arrow-alt work__icon"></i>
+                            </a>
                         </div>
                     </div>
-
-                    <!-- Add Arrows-->
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                    </div>
-
-                    <!-- Add Pagination-->
 
                     <div class="swiper-pagination"></div>
                 </div>
             </section>
 
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
-                <div class="project__bg">
-                    <div class="project__container container grid">
-                        <div class="project__data">
-                            <h2 class="project__title">You have a new project</h2>
-                            <p class="project__description">Contact me now and get a 30% discount on your new project.</p>
-                            <a href="#contact" class="button button--flex button--white">
-                                Contact Me
-                                <i class="uil uil-message project__icon button__icon"></i>
-                            </a>
-                        </div>
-
-                        <img src="assets/img/project.webp" alt="" class="project__img">
-                    </div>
-                </div>
-
-            </section>
-
-            <!--==================== TESTIMONIAL ====================-->
-            <!-- Whenever it's available, here is the testimonial -->
-
-            <!--==================== CONTACT ME ====================-->
+            <!--=============== CONTACT ===============-->
             <section class="contact section" id="contact">
-                <h2 class="section__title">Contact Me</h2>
                 <span class="section__subtitle">Get In Touch</span>
+                <h2 class="section__title">Contact Me</h2>
 
                 <div class="contact__container container grid">
-                    <div>
-                        <div class="contact__information">
-                            <i class="uil uil-phone contact__icon"></i>
+                    <div class="contact__content">
+                        <h3 class="contact__title">Talk to me</h3>
 
-                            <div>
-                                <h3 class="contact__title">Call Me</h3>
-                                <a href="tel:51989593966" target="_blank">
-                                    <span class="contact__subtitle">+51 989 593 966</span>
-                                </a>
-                                <br>
-                                <a href="tel:447787024710" target="_blank">
-                                    <span class="contact__subtitle">+44 7787 024710</span>
-                                </a>
-                            </div>
-                        </div>
+                        <div class="contact__info">
+                            <div class="contact__card">
+                                <i class="bx bx-mail-send contact__card-icon"></i>
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">hello@jpxoi.com</span>
 
-                        <div class="contact__information">
-                            <i class="uil uil-envelope contact__icon"></i>
-
-                            <div>
-                                <h3 class="contact__title">Email</h3>
-                                <a href="mailto:management@jpxoi.com" target="_blank">
-                                    <span class="contact__subtitle">management@jpxoi.com<br></span>
+                                <a href="mailto:hello@jpxoi.com" target="_blank" class="contact__button">
+                                    Write Me <i class="bx bx-right-arrow-alt contact__button-icon"></i>
                                 </a>
                             </div>
-                        </div>
 
-                        <div class="contact__information">
-                            <i class="uil uil-envelope-heart contact__icon"></i>
+                            <div class="contact__card">
+                                <i class="bx bxl-whatsapp contact__card-icon"></i>
+                                <h3 class="contact__card-title">WhatsApp</h3>
+                                <span class="contact__card-data">+44 7787 024710</span>
 
-                            <div>
-                                <h3 class="contact__title">Fan Mail</h3>
-                                <a href="mailto:hello@jpxoi.com" target="_blank">
-                                    <span class="contact__subtitle">​hello@jpxoi.com<br></span>
+                                <a href="https://wa.me/447787024710" target="_blank" class="contact__button">
+                                    Text Me <i class="bx bx-right-arrow-alt contact__button-icon"></i>
                                 </a>
                             </div>
-                        </div>
 
-                        <div class="contact__information">
-                            <a href="https://jpxoi.ck.page" target="_blank">
-                                <i class="uil uil-mailbox contact__icon"></i>
-                            </a>
+                            <div class="contact__card">
+                                <i class="bx bx-phone contact__card-icon"></i>
+                                <h3 class="contact__card-title">Phone</h3>
+                                <span class="contact__card-data">+51 989 593 966</span>
 
-                            <div>
-                                <a href="https://jpxoi.ck.page" target="_blank">
-                                    <h3 class="contact__title">Newsletter</h3>
-                                    <span class="contact__subtitle">​jpxoi.ck.page</span>
+                                <a href="tel:51989593966" target="_blank" class="contact__button">
+                                    Call Me <i class="bx bx-right-arrow-alt contact__button-icon"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <!--==================== FORM ====================-->
-                    <form class="contact__form grid" data-netlify="true" name="contactForm">
-                        <div class="contact__inputs grid">
-                            <div class="contact__content">
-                                <label for="firstName" class="contact__label">First Name</label>
-                                <input type="text" class="contact__input" id="firstName" name="firstName">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Write me about your project</h3>
+
+                        <form class="contact__form" data-netlify="true" name="contactForm">
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Full Name</label>
+                                <input type="text" placeholder="Insert your name" class="contact__form-input" id="name" name="name">
                             </div>
 
-                            <div class="contact__content">
-                                <label for="lastName" class="contact__label">Last Name</label>
-                                <input type="text" class="contact__input" id="lastName" name="lastName">
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Email</label>
+                                <input type="email" placeholder="Insert your email" class="contact__form-input" id="email" name="email">
                             </div>
-                        </div>
-                        <div class="contact__content">
-                            <label for="email" class="contact__label">Email</label>
-                            <input type="email" class="contact__input" id="email" name="email">
-                        </div>
-                        <div class="contact__content">
-                            <label for="project" class="contact__label">Project</label>
-                            <input type="text" class="contact__input" id="project" name="project">
-                        </div>
-                        <div class="contact__content">
-                            <label for="message" class="contact__label">Message</label>
-                            <textarea name="message" id="message" cols="0" rows="7" class="contact__input"></textarea>
-                        </div>
 
-                        <div>
-                            <input type="submit" value="Send Message">
-                        </div>
-                    </form>
+                            <div class="contact__form-div contact__form-area">
+                                <label for="" class="contact__form-tag">Message</label>
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Describe your project" class="contact__form-input"></textarea>
+                            </div>
+
+                            <button type="submit" class="button">Send Message</button>
+
+                        </form>
+                    </div>
                 </div>
             </section>
         </main>
 
-        <!--==================== FOOTER ====================-->
+
+
+        <!--=============== FOOTER ===============-->
         <footer class="footer">
-            <div class="footer__bg">
-                <div class="footer__container container grid">
-                    <ul class="footer__links">
-                        <li>
-                            <a href="#services" class="footer__link">Services</a>
-                        </li>
+            <div class="footer__container container grid">
+                <h1 class="footer__title">Jean Paul Fernandez</h1>
 
-                        <li>
-                            <a href="#portfolio" class="footer__link">Portfolio</a>
-                        </li>
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
 
-                        <li>
-                            <a href="#contact" class="footer__link">Contact Me</a>
-                        </li>
-                    </ul>
+                    <li>
+                        <a href="https://shop.jpxoi.com" target="_blank" class="footer__link">Store</a>
+                    </li>
 
-                    <div class="footer__socials">
-                        <a href="https://facebook.com/jpxoix" target="_blank" class="footer__social">
-                            <i class="uil uil-facebook-f"></i>
-                        </a>
+                    <li>
+                        <a href="https://www.paypal.com/donate/?hosted_button_id=7FLJ7WSKMAYTQ" target="_blank" class="footer__link">Donate</a>
+                    </li>
 
-                        <a href="https://twitter.com/jpxoi" target="_blank" class="footer__social">
-                            <i class="uil uil-twitter-alt"></i>
-                        </a>
+                    <li>
+                        <a href="https://pay.jpxoi.com" target="_blank" class="footer__link">Make a Payment</a>
+                    </li>
+                </ul>
 
-                        <a href="https://instagram.com/jpxoi" target="_blank" class="footer__social">
-                            <i class="uil uil-instagram"></i>
-                        </a>
+                <ul class="footer__social">
+                    <a href="https://facebook.com/jpxoix" target="_blank" class="footer__social-link">
+                        <i class="bx bxl-facebook"></i>
+                    </a>
 
-                        <a href="https://youtube.com/jeanpaulfernandez" target="_blank" class="footer__social">
-                            <i class="uil uil-youtube"></i>
-                        </a>
+                    <a href="https://instagram.com/jpxoi" target="_blank" class="footer__social-link">
+                        <i class="bx bxl-instagram"></i>
+                    </a>
 
-                        <a href="https://github.com/jpxoi" target="_blank" class="footer__social">
-                            <i class="uil uil-github-alt"></i>
-                        </a>
+                    <a href="https://twitter.com/jpxoi" target="_blank" class="footer__social-link">
+                        <i class="bx bxl-twitter"></i>
+                    </a>
+                </ul>
 
-                        <a href="https://linkedin.com/in/jpxoi" target="_blank" class="footer__social">
-                            <i class="uil uil-linkedin-alt"></i>
-                        </a>
-
-                        <a href="https://www.behance.net/jpxoi" target="_blank" class="footer__social">
-                            <i class="uil uil-behance-alt"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <p class="footer__copy">&#169; 2021 Jean Paul Fernandez</p>
-            </div>          
+                <span class="footer__copy">
+                    &#169; 2022 Jean Paul Fernandez. All Rights Reserved.
+                </span>
+            </div>
         </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="uil uil-arrow-up scrollup__icon"></i>
-        </a>
 
-        <!--==================== SWIPER JS ====================-->
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
         <script src="assets/js/swiper-bundle.min.js"></script>
 
-        <!--==================== MAIN JS ====================-->
+        <!--=============== MIXITUP FILTER ===============-->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
-
-        <!--==================== FORM JS ====================-->
-        <script src="https://www.gstatic.com/_/freebird/_/js/k=freebird.v.en.izj8zYMGhYA.O/d=1/rs=AMjVe6jk2tLQRKe1WruLPTo4lnGH01MQdw/m=viewer_base"></script>
-
-        <!--==================== FACEBOOK SDK ====================-->   
-        <script>
-            window.fbAsyncInit = function() {
-                FB.init({
-                    appId      : '4247685185353137',
-                    cookie     : true,
-                    xfbml      : true,
-                    version    : 'v11.0'
-                });    
-                FB.AppEvents.logPageView();       
-            };(function(d, s, id){
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) {return;}
-                js = d.createElement(s); js.id = id;
-                js.src = "https://connect.facebook.net/en_US/sdk.js";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-        </script>
     </body>
 </html>
