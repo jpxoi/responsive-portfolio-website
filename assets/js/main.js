@@ -143,7 +143,7 @@ sr.reveal(".home__handle", {delay: 700})
 sr.reveal(".home__social, .home__scroll", {delay: 900, origin: "bottom"})
 
 /*=============== TITLE CHANGE ANIMATION ===============*/
-const headerTexts = ["Frontend Developer", "Backend Developer", "UI/UX Designer", "Software Engineer", "Content Creator"];
+const headerTexts = ["Software Engineer", "Frontend Developer", "Backend Developer", "UI/UX Designer", "Content Creator"];
 const headerElement = document.getElementById("dynamic-header");
 
 let currentIndex = 0;
