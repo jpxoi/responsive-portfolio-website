@@ -790,6 +790,10 @@ body.light-theme {
   font-size: var(--small-font-size);
 }
 
+.projects__container {
+  width: 90vw;
+}
+
 /* Swiper class */
 .swiper-pagination-bullet {
   background-color: var(--text-color-light)
