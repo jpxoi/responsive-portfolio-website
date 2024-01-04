@@ -185,16 +185,6 @@ body.light-theme {
   box-shadow: 0 2px 16px hsla(var(--second-hue), 48%, 8%, 0.1);
 }
 
-.light-theme::-webkit-scrollbar-thumb {
-  background-color: hsl(var(--second-hue), 8%, 54%);
-  transition: 0.3s;
-}
-
-.light-theme::-webkit-scrollbar-thumb:hover {
-  background-color: hsl(var(--second-hue), 8%, 44%);
-  transition: 0.3s;
-}
-
 .light-theme .img-fluid {
   fill: var(--title-color);
   transition: 0.3s;
@@ -956,23 +946,6 @@ body.light-theme {
   color: #FFF;
   text-align: center;
   font-size: var(--smaller-font-size);
-}
-
-/*=============== SCROLL BAR ===============*/
-::-webkit-scrollbar {
-  width: 0.6rem;
-  border-radius: 0.5rem;
-  background-color: var(--body-color);
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: hsl(var(--second-hue), 8%, 26%);
-  border-radius: 0.5rem;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: hsl(var(--second-hue), 8%, 20%);
-  transition: 0.3s ease-in-out;
 }
 
 /*=============== BREAKPOINTS ===============*/
